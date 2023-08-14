@@ -1,0 +1,113 @@
+html {
+  background-color: hsl(216, 12%, 8%);
+}
+
+/* Rating board  */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.rating {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+  padding: 15px 25px;
+  background-color: hsl(213, 19%, 18%);
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+}
+
+.star {
+  border-radius: 100px;
+  background-color: hsl(215, 15%, 23%);
+  padding: 15px;
+}
+
+.text {
+  color: hsl(217, 12%, 63%);
+}
+
+.submit {
+  border-radius: 25px;
+  background-color: hsl(25, 97%, 53%);
+  text-align: center;
+  padding: 10px 10px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.un,
+.deux,
+.trois,
+.quatre,
+.cinq {
+  border-radius: 150px;
+  background-color: hsl(215, 15%, 23%);
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.un:hover,
+.deux:hover,
+.trois:hover,
+.quatre:hover,
+.cinq:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.un:active,
+.deux:active,
+.trois:active,
+.quatre:active,
+.cinq:active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit:active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/* End Rating board */
+
+/* thanks board */
+
+.thanks {
+  width: 350px;
+  height: 350px;
+  border-radius: 30px;
+  padding: 15px 25px;
+  background-color: hsl(213, 19%, 18%);
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  display: none;
+}
+
+.thanks img {
+  padding: 20px 0px 10px 0px;
+  margin: 10px 10px;
+}
+
+.phrase {
+  border-radius: 30px;
+  background-color: hsl(215, 15%, 23%);
+  color: hsl(25, 86%, 58%);
+  padding: 5px 15px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+/* end thanks board*/
+
+/*Footer*/
+.attribution {
+  color: hsl(217, 12%, 63%);
+}
